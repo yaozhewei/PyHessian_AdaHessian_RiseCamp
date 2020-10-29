@@ -27,7 +27,7 @@ from torchvision import datasets, transforms
 from torch.autograd import Variable
 
 
-def getData(name='cifar10', train_bs=128, test_bs=1000):
+def getData(name='cifar10', train_bs=32, test_bs=1000):
     """
     Get the dataloader
     """
